@@ -433,7 +433,7 @@ void main()
 {
     srand(time(NULL));
     setlocale(LC_ALL, "rus");
-    nt f;
+    int f;
     do {
         cout << "Ïåðâàÿ 1 - 6  >>> "; cin >> f;
         switch (f)
